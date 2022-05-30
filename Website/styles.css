@@ -1,0 +1,457 @@
+* {
+  font-family: Book Antiqua;
+}
+/*Telefoon-formaat*/
+@media (min-width: 320px) {
+  /* Home Page & Contact*/
+
+  .home-contact {
+    background: url(Foto/paper-1074131_1920.jpg);
+    background-size: cover;
+  }
+
+  .mij {
+    border-style: double;
+    border-radius: 5px;
+  }
+
+  .mij-positie {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 140px;
+  }
+
+  .color-header {
+    color: brown;
+  }
+  .navigation {
+    background-color: rgb(0, 7, 14);
+    overflow-wrap: auto;
+    padding: 1px 8px;
+    margin: auto;
+    height: 3rem;
+    width: auto;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+
+  .navigation-list {
+    display: flex;
+    list-style-type: none;
+    align-content: space-around;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .navigation a:hover {
+    color: red;
+  }
+
+  .navigation a:active {
+    color: rgb(18, 18, 236);
+  }
+
+  main {
+    color: black;
+  }
+
+  header a {
+    color: rgb(238, 222, 222);
+  }
+
+  .index-text {
+    display: grid;
+    grid-auto-columns: 80%;
+    grid-template-rows: 140px;
+  }
+
+  footer li {
+    overflow: hidden;
+  }
+
+  .container {
+    background-color: black;
+    color: rgb(238, 222, 222);
+
+    height: 3rem;
+    text-align: center;
+    padding: 0.5px;
+    margin: 1px;
+    border-style: double;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-color: rgb(238, 222, 222);
+  }
+  .container {
+    width: 100%;
+    bottom: 0;
+  }
+
+  /*Contact*/
+  .container-contact {
+    background-color: black;
+    color: rgb(238, 222, 222);
+
+    height: 3rem;
+    text-align: center;
+
+    margin: 1px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+
+  .container-contact-border {
+    position: fixed;
+    width: 98%;
+    bottom: 0%;
+  }
+  /*Zevenhuizerplas*/
+  .wildlife-areas {
+    background: url(Foto/paper-1074131_1920.jpg);
+  }
+  .koptekst {
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(126, 131, 149);
+    font-size: 2rem;
+  }
+
+  .baardman {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .baardman-positie {
+    text-align: center;
+    margin: 90px 100px 80px 100px;
+  }
+
+  .wildlife-footer {
+    background-color: black;
+    color: rgb(238, 222, 222);
+
+    width: auto;
+
+    height: 3rem;
+    text-align: center;
+    padding: 0.5px;
+    margin: 1px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+
+  .top-textplas {
+    text-align: center;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.2rem;
+  }
+
+  .film-positie {
+    text-align: center;
+
+    margin: 80px 30px 80px 30px;
+  }
+
+  .film {
+    height: 200px;
+    width: 400px;
+    border-style: double;
+    border-color: black;
+    border-width: 2px;
+  }
+
+  .main-textplas {
+    padding: 5% 20% 0 20%;
+    font-size: 1.2rem;
+  }
+
+  .havik {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .havik-positie {
+    text-align: center;
+    margin: 90px 100px 80px 100px;
+  }
+
+  /*Biesbosch*/
+
+  .wildlife-areas {
+    background: url(Foto/paper-1074131_1920.jpg);
+  }
+
+  .zeearend {
+    border-style: double;
+    border-color: rgb(233, 220, 220);
+    border-width: 3px;
+  }
+
+  .biesbosch-header {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(126, 131, 149);
+    font-size: 2rem;
+  }
+  .text-biesbosch {
+    padding: 2% 20% 0 20%;
+    font-size: 1.2rem;
+  }
+  .tapuit {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .ijsvogel {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .footer-birds {
+    padding: 5% 5% 5% 5%;
+  }
+
+  .tapuit-positie {
+    padding-bottom: 7%;
+  }
+
+  .footer-text-biesbosch {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(126, 131, 149);
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Home Page & Contact */
+
+  .home-contact {
+    background: url(Foto/5V0A6597.JPG);
+    background-size: cover;
+  }
+
+  .mij {
+    display: none;
+  }
+
+  .color-header {
+    color: white;
+  }
+  .navigation {
+    background-color: rgb(0, 7, 14);
+    overflow-wrap: auto;
+    padding: 1px 8px;
+    margin: auto;
+    height: 3rem;
+    width: auto;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+
+  .navigation-list {
+    display: flex;
+    list-style-type: none;
+    align-content: space-around;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+
+  .navigation a:hover {
+    color: red;
+  }
+
+  .navigation a:active {
+    color: rgb(18, 18, 236);
+  }
+
+  main {
+    color: black;
+  }
+
+  header a {
+    color: rgb(238, 222, 222);
+  }
+
+  .index-text {
+    display: grid;
+    grid-auto-columns: 25%;
+    grid-template-rows: 120px;
+  }
+
+  footer li {
+    overflow: hidden;
+  }
+
+  .container {
+    background-color: black;
+    color: rgb(238, 222, 222);
+
+    width: 99%;
+    position: fixed;
+    height: 3rem;
+    text-align: center;
+    padding: 0.5px;
+    margin: 1px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+  footer {
+    bottom: 0px;
+  }
+  /*Contact*/
+  .container-contact {
+    background-color: black;
+    color: rgb(238, 222, 222);
+
+    height: 3rem;
+    text-align: center;
+
+    margin: 1px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+
+  .container-contact-border {
+    position: fixed;
+    width: 99%;
+  }
+  /*Zevenhuizerplas*/
+  .wildlife-areas {
+    background: url(Foto/paper-1074131_1920.jpg);
+  }
+  .koptekst {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(126, 131, 149);
+    font-size: 6rem;
+  }
+
+  .baardman {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .baardman-positie {
+    text-align: center;
+    margin: 160px 300px 140px 300px;
+  }
+
+  .wildlife-footer {
+    background-color: black;
+    color: rgb(238, 222, 222);
+
+    width: auto;
+
+    height: 3rem;
+    text-align: center;
+    padding: 0.5px;
+    margin: 1px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(238, 222, 222);
+  }
+
+  .top-textplas {
+    text-align: center;
+    padding: 28px;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 1.5rem;
+  }
+
+  .film-positie {
+    text-align: center;
+    margin: 60px 200px 40px 200px;
+  }
+
+  .film {
+    height: 400px;
+    width: 700px;
+  }
+  .main-textplas {
+    padding: 5% 20% 0 20%;
+    font-size: 1.5rem;
+  }
+
+  .havik {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .havik-positie {
+    text-align: center;
+    margin: 160px 300px 140px 300px;
+  }
+
+  /*Biesbosch*/
+
+  .wildlife-areas {
+    background: url(Foto/paper-1074131_1920.jpg);
+  }
+
+  .zeearend {
+    border-style: double;
+    border-color: rgb(233, 220, 220);
+    border-width: 3px;
+  }
+
+  .biesbosch-header {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(126, 131, 149);
+    font-size: 6rem;
+  }
+  .text-biesbosch {
+    padding: 2% 20% 0 20%;
+    font-size: 1.5rem;
+  }
+  .tapuit {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .tapuit-positie {
+    text-align: center;
+    margin: 50px 200px 50px 200px;
+  }
+
+  .ijsvogel {
+    border-style: double;
+    border-color: rgb(238, 222, 222);
+    border-width: 3px;
+  }
+
+  .ijsvogel-positie {
+    text-align: center;
+    margin: 50px 200px 50px 200px;
+  }
+
+  .footer-birds {
+    padding-left: 5%;
+  }
+
+  .footer-text-biesbosch {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(126, 131, 149);
+    font-size: 3rem;
+  }
+}
